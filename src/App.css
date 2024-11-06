@@ -110,7 +110,7 @@ nav.navbar .navbar-text button:hover::after {
   background-position: center;
   background-repeat: no-repeat;
   height: 110vh;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .banner .tagline {
@@ -200,7 +200,7 @@ nav.navbar .navbar-text button:hover::after {
 }
 
 .skills .skill-box .section-title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -211,6 +211,7 @@ nav.navbar .navbar-text button:hover::after {
 }
 
 .skills .skill-box .skill-slider img {
+  width: 150px;
   margin: 20px;
 }
 
@@ -222,7 +223,7 @@ nav.navbar .navbar-text button:hover::after {
 }
 
 .projects h2.section-title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
 }
@@ -401,6 +402,12 @@ nav.navbar .navbar-text button:hover::after {
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
+}
+
+.footer .logo {
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 5px;
 }
 
 .footer .info {

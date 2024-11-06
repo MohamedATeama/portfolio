@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/navIcon1.svg';
 import navIcon2 from '../assets/img/navIcon2.svg';
 import navIcon3 from '../assets/img/navIcon3.svg';
@@ -34,15 +33,15 @@ export default function Header() {
         <Router>
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""} data-bs-theme="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand href="/"><img src={logo} alt='Logo' /></Navbar.Brand>
+                    <Navbar.Brand href="/"><h1 className='text-bold'>M.T</h1></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="">
                             <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
                             <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skils</Nav.Link>
                             <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link>
                         </Nav>
-                        <span className='navbar-text d-flex align-items-center'>
+                        <span className='navbar-text d-flex align-items-center ms-auto'>
                             <div className='social-icons d-inline-block ms-3'>
                                 <a href='https://www.linkedin.com/in/mohammed-teama-1a40571aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src={navIcon1} alt='LinkedIn' /></a>
                                 <a href='https://github.com/MohamedATeama'><img src={navIcon2} alt='Github' /></a>

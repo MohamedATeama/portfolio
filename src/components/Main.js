@@ -52,7 +52,7 @@ export default function Main() {
             <button onClick={() => {window.location.href='#connect'}}>Let's Connect <i className="bi bi-arrow-right-circle"></i></button>
           </Col>
           <Col xs={12} lg={6} xl={5} className='d-lg-block d-none'>
-            <img src={banner} alt='main banner' />
+            <img className='w-100' src={banner} alt='main banner' />
           </Col>
         </Row>
       </Container>
