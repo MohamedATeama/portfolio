@@ -1,5 +1,3 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
 import navIcon1 from '../assets/img/navIcon1.svg';
 import navIcon2 from '../assets/img/navIcon2.svg';
 import navIcon3 from '../assets/img/navIcon3.svg';
@@ -8,20 +6,7 @@ export default function Footer() {
     return (
         <footer className='footer'>
             <div className="container">
-                <div className='info'>
-                    <Row className='align-items-center'>
-                        <Col>
-                            <h3>See My Projects At Once & Leave Here Your E-mail Address</h3>
-                        </Col>
-                        <Col lg={7}>
-                            <form className="form-inline d-flex flex-column flex-md-row align-items-center">
-                                <input className="form-control" type="emaail" placeholder="Enter Address" />
-                                <button className="btn" type="submit">Submit</button>
-                            </form>
-                        </Col>
-                    </Row>
-                </div>
-                <div className='footer-cont d-flex flex-column flex-md-row justify-content-between align-items-center pt-0 pt-md-2 pb-5'>
+                <div className='footer-cont d-flex flex-column flex-md-row justify-content-between align-items-center'>
                     <span className='logo'>M.T</span>
                     <div className='social-links mt-5 mt-md-0'>
                         <div className='social-icons d-flex justify-content-center justify-content-md-end mb-4'>

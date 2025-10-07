@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import navIcon1 from '../assets/img/navIcon1.svg';
 import navIcon2 from '../assets/img/navIcon2.svg';
@@ -33,7 +33,7 @@ export default function Header() {
         <Router>
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""} data-bs-theme="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand href="/"><h1 className='text-bold'>M.T</h1></Navbar.Brand>
+                    <Navbar.Brand href="#"><h1 className='text-bold'>M.T</h1></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="">
@@ -43,8 +43,8 @@ export default function Header() {
                         </Nav>
                         <span className='navbar-text d-flex align-items-center ms-auto'>
                             <div className='social-icons d-inline-block ms-3'>
-                                <a href='https://www.linkedin.com/in/mohammed-teama-1a40571aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src={navIcon1} alt='LinkedIn' /></a>
-                                <a href='https://github.com/MohamedATeama'><img src={navIcon2} alt='Github' /></a>
+                                <a target='_blank' href='https://www.linkedin.com/in/mohammed-teama-1a40571aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src={navIcon1} alt='LinkedIn' /></a>
+                                <a target='_blank' href='https://github.com/MohamedATeama'><img src={navIcon2} alt='Github' /></a>
                                 <a href='mailto:mohammed.teama789@gmail.com'><img src={navIcon3} alt='Mail' /></a>
                             </div>
                             <HashLink to='#connect'>
