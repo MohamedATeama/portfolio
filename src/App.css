@@ -251,7 +251,7 @@ nav.navbar .navbar-text button:hover::after {
   background-color: var(--color-surface);
   padding: 20px;
   border-radius: 65px;
-  margin-top: -150px;
+  margin-top: -120px;
 }
 
 .skills .skill-box .section-title {
