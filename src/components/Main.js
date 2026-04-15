@@ -7,7 +7,7 @@ export default function Main() {
 
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ['FullStack Web Developer', 'FrontEnd Developer', 'BackEnd Developer'];
+  const toRotate = ['Full-Stack Web Developer', 'Front-End Developer', 'Back-End Developer'];
   const period = 2000;
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -46,8 +46,8 @@ export default function Main() {
       <Container>
         <Row className='align-items-center'>
           <Col xs={12} lg={6} xl={7}>
-            <span className='tagline'>Welcome All In My Portfolio</span>
-            <h1>Hi! I'm Mohamed Teame, <span className='wrap'>{text}</span></h1>
+            <span className='tagline'>Welcome to My Portfolio</span>
+            <h1>Hi! I'm Mohamed Teama, <span className='wrap'>{text}</span></h1>
             <p className='main-paragraph'>I'm a passionate Full Stack Developer with expertise in both Frontend and Backend development. I create modern, responsive, and user-friendly web applications using the latest technologies. My goal is to deliver high-quality solutions that combine clean code, seamless performance, and great user experience.</p>
             <button onClick={() => {window.location.href='#connect'}}>Let's Connect <i className="bi bi-arrow-right-circle"></i></button>
           </Col>

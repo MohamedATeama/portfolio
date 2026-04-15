@@ -42,7 +42,7 @@ export default function Connect() {
                                     <input name="email" type='email' placeholder='Email Address' />
                                 </Col>
                                 <Col size={12} sm={6} className='mb-2'>
-                                    <input name="phone" type='tel' placeholder='Phonr Number' />
+                                    <input name="phone" type='tel' placeholder='Phone Number' />
                                 </Col>
                                 <Col size={12}>
                                     <textarea name="message" rows={6} placeholder='Message'></textarea>
